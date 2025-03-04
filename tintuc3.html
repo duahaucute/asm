@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tt3</title>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+  <style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+/* ảnh header */
+header img{
+
+    width: 100%;
+    height: 600px;
+
+}
+
+.chuchay{
+
+    height: 30px;
+    background: rgb(144, 249, 134);
+    color: rgb(229, 12, 12);
+    font-size: 23px;
+
+}
+nav{
+
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(rgb(131, 209, 217), rgb(140, 153, 238));
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+
+}
+
+nav li{
+
+    width: 176px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+nav li:hover{
+
+    background: rgba(255, 255, 255, 0.53);
+
+}
+
+
+nav a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.icon{
+
+    width: 20px;
+    padding-bottom: 4px;
+
+}
+
+.search{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 17px;
+
+}
+
+.search input{
+
+    width: 300px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.search button{
+
+    width: 80px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px black solid;
+
+}
+
+
+.cuoi{
+
+width: 100%;
+height: 200px;
+background: linear-gradient(rgb(161, 177, 228), rgb(103, 103, 236));
+display: flex;
+justify-content: center;
+
+}
+
+
+.ten{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+.ten p{
+
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.line1, .line2{
+
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+
+}
+
+.line1 a{
+
+text-decoration: none;
+font-size: 19px;
+font-weight: normal;
+
+}
+
+.line1 a:hover{
+
+color: red;
+text-decoration: underline;
+
+}
+
+.line2{
+
+font-size: 19px;
+
+}
+
+.cuoi button{
+
+width: 120px;
+height: 40px;
+background: rgb(42, 42, 220);
+border-radius: 20px;
+border: 2px solid black;
+
+}
+
+.cuoi button a{
+
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-decoration: none;
+
+}
+
+h4{
+
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.tong{
+
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+
+}
+
+.tong p{
+
+width: 70%;
+font-size: 20px;
+
+}
+
+img{
+
+    width: 70%;
+
+}
+
+
+
+  </style>
+
+</head>
+<body>
+
+ <!-- ảnh header -->
+ <header>
+
+  <img src="image/yd1.jpg" alt="">
+
+</header>
+
+<!-- chữ chạy -->
+<marquee class="chuchay" behavior="" direction="">Chào mừng đến với THPT Yên Định 1 - Nơi nâng tầm tương lai!</marquee>
+
+
+<!-- hàng menu -->
+<nav>
+
+  <ul>
+
+      <li>
+          <box-icon class="icon" name='home-alt-2'></box-icon>
+          <a href="#">Trang chủ</a>
+      </li>
+      
+      <li>
+          <box-icon type='solid' name='school'></box-icon>
+          <a href="#">Giới thiệu</a>
+      </li>
+      
+      <li>
+          <box-icon name='phone-call'></box-icon>
+          <a href="#">Liên hệ</a>
+      </li>
+      
+      <li>
+          <box-icon name='message-square-edit'></box-icon>               
+          <a href="#">Góp ý</a>
+      </li>
+      
+      <li>
+          <box-icon name='chat'></box-icon>
+          <a href="#">Hỏi & Đáp</a>
+      </li>
+
+  </ul>
+
+
+  <div class="search">
+
+      <input type="text" placeholder="Tìm kiếm tại đây">
+
+      <button>Tìm kiếm</button>
+
+  </div>
+
+</nav> <br> <br>
+
+<h4>Thông tin nhận bằng tốt nghiệp THPT</h4> <br><br>
+
+<div class="tong">
+
+    <p>
+        Trường THPT Yên Định 1 thông báo!
+    </p>
+
+    <p>
+        Hiện nay đã có Bằng tốt nghiệp THPT năm 2024. Nhà trường tổ chức phát trong giờ hành chính từ thứ 2 đến thứ 6 hàng tuần. Học sinh đến nhận mang theo thẻ căn cước công dân. Trường hợp nhận hộ phải mang theo giấy uỷ quyền và thẻ căn cước công dân của người được uỷ quyền. 
+    </p>
+
+    <p>
+        Trân trọng!
+    </p>
+
+    <img src="image/thongbao.jpg" alt=""> <br><br>
+
+</div>
+
+<!-- phần cuối -->
+<div class="cuoi">
+    <div class="ten">
+
+        <p>THPT YÊN ĐỊNH 1</p>
+        
+        <p>TT.QUÁN LÀO - HUYỆN YÊN ĐỊNH - TỈNH THANH HÓA</p>
+
+        <p class="line1"><box-icon type='solid' name='envelope'></box-icon><a href="#" target="_blank">thpt.yendinh1@thanhhoa.edu.vn</a></p>
+
+        <p class="line2"><box-icon type='solid' name='phone'></box-icon>0237 3869 324</p>
+
+        <button><a href="https://www.facebook.com/TruongTHPTYenDinh1" target="_blank">Facebook</a></button>
+
+    </div>
+
+</div>

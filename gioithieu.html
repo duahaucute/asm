@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giới thiệu</title>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+
+  <style>
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+
+    height: 1px;
+    background-color: black;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+/* ảnh header */
+header img{
+
+    width: 100%;
+    height: 600px;
+
+}
+
+.chuchay{
+
+    height: 30px;
+    background: rgb(144, 249, 134);
+    color: rgb(229, 12, 12);
+    font-size: 23px;
+
+}
+nav{
+
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(rgb(131, 209, 217), rgb(140, 153, 238));
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul{
+    
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+
+}
+
+nav li{
+
+    width: 176px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+nav li:hover{
+
+    background: rgba(255, 255, 255, 0.53);
+
+}
+
+
+nav a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.icon{
+
+    width: 20px;
+    padding-bottom: 4px;
+
+}
+
+.search{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 17px;
+
+}
+
+.search input{
+
+    width: 300px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.search button{
+
+    width: 80px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1px black solid;
+
+}
+
+h4{
+
+text-align: center;
+font-size: 29px;
+font-weight: bold;
+
+}
+
+.tong{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.tong p{
+
+    width: 70%;
+    font-size: 20px;
+
+}
+
+.anh{
+
+    width: 100%;
+    
+}
+
+.anh img{
+
+    width: 70%;
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+
+
+}
+
+.cuoi{
+
+width: 100%;
+height: 200px;
+background: linear-gradient(rgb(161, 177, 228), rgb(103, 103, 236));
+display: flex;
+justify-content: center;
+
+}
+
+
+.ten{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+.ten p{
+
+font-size: 20px;
+font-weight: bold;
+
+}
+
+.line1, .line2{
+
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 5px;
+
+}
+
+.line1 a{
+
+text-decoration: none;
+font-size: 19px;
+font-weight: normal;
+
+}
+
+.line1 a:hover{
+
+color: red;
+text-decoration: underline;
+
+}
+
+.line2{
+
+font-size: 19px;
+
+}
+
+.cuoi button{
+
+width: 120px;
+height: 40px;
+background: rgb(42, 42, 220);
+border-radius: 20px;
+border: 2px solid black;
+
+}
+
+.cuoi button a{
+
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-decoration: none;
+
+}
+
+
+  </style>
+
+</head>
+<body>
+
+ <!-- ảnh header -->
+ <header>
+
+  <img src="image/yd1.jpg" alt="">
+
+</header>
+
+<!-- chữ chạy -->
+<marquee class="chuchay" behavior="" direction="">Chào mừng đến với THPT Yên Định 1 - Nơi nâng tầm tương lai!</marquee>
+
+
+<!-- hàng menu -->
+<nav>
+
+  <ul>
+
+      <li>
+          <box-icon class="icon" name='home-alt-2'></box-icon>
+          <a href="#">Trang chủ</a>
+      </li>
+      
+      <li>
+          <box-icon type='solid' name='school'></box-icon>
+          <a href="#">Giới thiệu</a>
+      </li>
+      
+      <li>
+          <box-icon name='phone-call'></box-icon>
+          <a href="#">Liên hệ</a>
+      </li>
+      
+      <li>
+          <box-icon name='message-square-edit'></box-icon>               
+          <a href="#">Góp ý</a>
+      </li>
+      
+      <li>
+          <box-icon name='chat'></box-icon>
+          <a href="#">Hỏi & Đáp</a>
+      </li>
+
+  </ul>
+
+
+  <div class="search">
+
+      <input type="text" placeholder="Tìm kiếm tại đây">
+
+      <button>Tìm kiếm</button>
+
+  </div>
+
+</nav> <br> <br>
+
+<h4>Giới thiệu về trường THPT Yên Định 1</h4> <br><br>
+
+<div class="tong">
+
+    <p>Trường THPT Yên Định 1 nằm ở khu 5, thị trấn Quán Lào, huyện Yên Định, tỉnh Thanh Hóa. Đây là một trong những ngôi trường đi đầu về chất lượng giáo dục góp phần không nhỏ vào việc nâng cao chất lượng giáo dục của toàn tỉnh. Hãy cùng tìm hiểu rõ hơn về ngôi trường này thông qua một số tiêu chí sau đây: 
+    </p>
+
+        <p>Lịch sử hình thành
+            Để chăm lo cho công tác nâng cao dân trí, đào tạo nhân lực vào mùa thu năm 1965, Ủy ban nhân dân dân tỉnh Thanh Hóa đã ban hành quyết định thành lập trường phổ thông cấp 3 Yên Định. Đây chính là niềm vui to lớn đánh dấu bước ngoặt của ngành giáo dục Thanh Hóa nói chung và của nhân dân huyện Yên Định nói riêng. 
+        </p>
+        <p>
+            Đến năm 1975, từ ngôi trường cũ trường chính thức được mang tên là trường THPT Yên Định 1. Đây là một bước ngoặt rất quan trọng của trường. Khi ấy quy mô trường lớp được đầu tư, các loại hình giáo dục phát triển toàn diện hơn với 43 lớp học (cả bán công và công lập) với 2340 học sinh và 76 cán bộ giáo viên. Ở thời điểm ấy đây là ngôi trường có số học sinh đông nhất cả nước. 
+        </p> <br>
+
+        <div class="anh">
+            <img src="image/chào cờ yd1.jpg" alt="">
+        </div>
+
+        <p>
+            Điểm tuyển sinh đầu vào
+            Điểm chuẩn đầu vào là một trong những tiêu chí quan trọng để đánh giá trường THPT Yên Định 1 có tốt không. Điểm chuẩn của trường được dựa vào kết quả thi cuối cấp do Bộ Giáo dục và Đào tạo tỉnh Thanh Hóa tổ chức. Nhìn chung điểm chuẩn của trường không quá cao so với các trường THPT trong tỉnh.
+        </p>
+
+        <p>
+            Điểm chuẩn đầu vào của trường hàng năm đều có sự thay đổi phụ thuộc vào số lượng học sinh đăng ký và và mức độ khó dễ của đề thi, cụ thể: 
+        
+            Năm học 2016 - 2017 điểm chuẩn của trường là 23,25 điểm.
+        
+            Năm học 2018 - 2019 điểm chuẩn của trường là 29 điểm
+        
+            Năm học 2019 - 2020 điểm chuẩn của trường là 12,4 điểm
+        
+            Trong năm học 2020 - 2021 điểm chuẩn của trường là 16 điểm.
+        </p>
+
+        <p>
+            Cơ sở vật chất
+            Để tạo điều kiện tốt nhất cho việc dạy và học học năm 1996 trường đã được đầu tư xây dựng dãy nhà hai tầng kiên cố với 14 phòng học. Đến năm 2000 nhà trường đưa vào sử dụng khu nhà hiệu bộ được xây dựng khang trang sạch đẹp. Tính đến nay, Nhà trường đã có hai dãy nhà hai tầng, 1 dãy nhà 3 tầng, khu nhà hiệu bộ, các phòng chức năng được tăng cường, nhà đa năng, các phòng học bộ môn được xây dựng mới đồng bộ về cơ sở vật chất đặt trang thiết bị dạy học đạt chuẩn quốc gia đáp ứng tốt cho nhu cầu học tập và giảng dạy.
+        </p>
+
+        <p>
+            Bên cạnh đó khuôn viên trường cũng được xây dựng rộng rãi thoáng mát với cây xanh. Nhà trường cũng có một thư viện với đa dạng các đầu sách phong phú để học sinh và giáo viên trau dồi rèn luyện thêm những kiến thức bên ngoài.
+        
+        </p> <br>
+
+        <div class="anh">
+            <img src="image/yd1.jpg" alt="">
+        </div><br>
+
+
+</div>
+
+<!-- phần cuối -->
+<div class="cuoi">
+    <div class="ten">
+
+        <p>THPT YÊN ĐỊNH 1</p>
+        
+        <p>TT.QUÁN LÀO - HUYỆN YÊN ĐỊNH - TỈNH THANH HÓA</p>
+
+        <p class="line1"><box-icon type='solid' name='envelope'></box-icon><a href="#" target="_blank">thpt.yendinh1@thanhhoa.edu.vn</a></p>
+
+        <p class="line2"><box-icon type='solid' name='phone'></box-icon>0237 3869 324</p>
+
+        <button><a href="https://www.facebook.com/TruongTHPTYenDinh1" target="_blank">Facebook</a></button>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
